@@ -1,6 +1,6 @@
 
 //import reactLogo from './assets/react.svg'
-
+import './video.css'
 function Video(props: any) { 
     const {title ,chanelName, img}   = props
   return (      
