@@ -27,12 +27,6 @@ export const VIDEOS = [
     },
     {
         id: 5,
-        title: 'Видео 4',
-        chanelName: 'Канал 4',
-        img: reactLogo
-    },
-    {
-        id: 1,
         title: 'Видео 5',
         chanelName: 'Канал 5',
         img: reactLogo
