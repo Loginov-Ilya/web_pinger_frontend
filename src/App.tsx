@@ -1,12 +1,16 @@
 
 import reactLogo from './assets/react.svg'
+
 import './App.css'
+import Video from './Video'
 function App() {
-   const result ="my first react app"
+   
   return (
       <>
-      <h1>Vite + React {result} <img src={reactLogo} alt="react logo" /></h1>
-      <p>asdasdad</p>
+     <div className='video-container'>
+        <Video title="Видео 1" chanelName="Канал 1"  img={reactLogo} />
+  
+     </div>     
       </>
    
   )
